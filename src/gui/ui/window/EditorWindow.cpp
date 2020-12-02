@@ -18,8 +18,9 @@ EditorWindow::EditorWindow() : Window() {
 
     ///////////////////////////////////////////////////////////////////////
     // TEXT EDITOR SAMPLE
-    auto lang = TextEditor::LanguageDefinition::Basic();
-
+   // auto lang = TextEditor::LanguageDefinition::Basic();
+    auto lang = TextEditor::LanguageDefinition::Lua();
+    
     // set your own known preprocessor symbols...
     static const char *ppnames[] = {"NULL", "PM_REMOVE",
                                     "ZeroMemory", "DXGI_SWAP_EFFECT_DISCARD", "D3D_FEATURE_LEVEL", "D3D_DRIVER_TYPE_HARDWARE", "WINAPI", "D3D11_SDK_VERSION", "assert"};
