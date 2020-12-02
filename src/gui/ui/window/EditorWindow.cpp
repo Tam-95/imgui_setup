@@ -18,7 +18,7 @@ EditorWindow::EditorWindow() : Window() {
 
     ///////////////////////////////////////////////////////////////////////
     // TEXT EDITOR SAMPLE
-    auto lang = TextEditor::LanguageDefinition::Lua();
+    auto lang = TextEditor::LanguageDefinition::Basic();
 
     // set your own known preprocessor symbols...
     static const char *ppnames[] = {"NULL", "PM_REMOVE",
